@@ -1,6 +1,6 @@
 require_relative 'user'
 
-class LoginManager
+class LoginManagerWithShared
 
   @users = Array.new
   def initialize()
